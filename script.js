@@ -1,12 +1,15 @@
+import { modeChange } from "./darkmode";
+
 const celsius = document.getElementById("celsius");
 const fahrenheit = document.getElementById("fahrenheit");
 const kelvin = document.getElementById("kelvin");
 const list = document.querySelector(".scale-list");
+const button = document.querySelector(".button-mode");
 
+button.addEventListener("click", modeChange);
 list.addEventListener("change", (e) => {
   const initialValue = +e.target.value;
-  console.log((fahrenheit.value = 5));
-  console.log(e.target.name);
+
   switch (e.target.name) {
     case "celsius":
       kelvin.value = (initialValue + 273.15).toFixed(2);
