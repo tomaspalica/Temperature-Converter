@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "name": "temperature-converter",
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "parcel *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaspalica/Temperature-Converter.git"
+  },
+  "author": "TOMASZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomaspalica/Temperature-Converter/issues"
+  },
+  "homepage": "https://github.com/tomaspalica/Temperature-Converter#readme"
+}
