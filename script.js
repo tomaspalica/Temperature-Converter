@@ -1,4 +1,4 @@
-import { modeChange } from "./darkmode";
+// import { modeChange } from "./darkmode";
 
 const celsius = document.getElementById("celsius");
 const fahrenheit = document.getElementById("fahrenheit");
@@ -6,7 +6,7 @@ const kelvin = document.getElementById("kelvin");
 const list = document.querySelector(".scale-list");
 const button = document.querySelector(".button-mode");
 
-button.addEventListener("click", modeChange);
+// button.addEventListener("click", modeChange);
 list.addEventListener("change", (e) => {
   const initialValue = +e.target.value;
 
